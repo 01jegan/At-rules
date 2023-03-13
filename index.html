@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>At-rules</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Babylonica&display=swap" rel="stylesheet">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+		*{
+			font-family: 'Poppins', sans-serif;
+		}
+		
+		.container{
+			margin: 0 200px;
+			padding: 30px;
+			background:;
+		}
+		h2{
+			background-color:gray;
+			color:white;
+			padding:5px;
+			text-align:center;
+		}
+		p{
+			font-size:20px;
+		}
+		@face-font{
+			
+		}
+		.ani{
+			animation:ani 0.5s linear;
+		}
+		@keyframes ani{
+			0%{
+				transform:rotate(45deg);
+			}
+			80%{
+				transform:rotate(120deg);
+			}
+			100%{
+				transform:rotate(180deg);
+			}
+		}
+		@media(max-width:576px){
+		p{
+		font-size:12px;
+	}
+		}
+	</style>
+</head>	
+<body>
+<div class="container">
+	<h2>@charset</h2>
+	<p>cherset it is used to meta tag [charset="UTF-8"]</p>
+	<h2>@font-face</h2>
+	<p>Describes the aspect of an external font to be downloaded.</p>
+	<h2>@keyframe</h2>
+	<p class="ani">keyframe it's used to animation.</p>
+	<h2>@media</h2>
+	<p>media it's using a media query.</p>
+	</div>
+	</body>
+</html>
